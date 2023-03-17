@@ -39,8 +39,8 @@ while a != 0:
         else:
             print("-1 жизнь :(") #вычитание жизни при ошибке
             a -= 1 #
-        if var == "б":
-            var2 = input("Буква: ").lower() #выбор метода "буква"
+    if var == "б":
+        var2 = input("Буква: ").lower() #выбор метода "буква"
         if var2 in x:
             for c in range(len(x)):
                 if var2 == x[c]:
